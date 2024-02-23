@@ -13,11 +13,11 @@
 
 ### custom dataset 
 - was created in data folder
-- preprocessing eas done and output is stored in data_out folder
+- preprocessing was done and output is stored in data_out folder
 
 ### Train Emotion detector
 - with all face expression images in the FER2013 Dataset
-  python TranEmotionDetector.py
+python TranEmotionDetector.py
 - after Training , you will find the trained model structure and weights are stored in your project directory.
 emotion_model.json
 emotion_model.h5
