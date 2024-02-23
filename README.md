@@ -15,3 +15,19 @@
 - was created in data folder
 - preprocessing eas done and output is stored in data_out folder
 
+### Train Emotion detector
+- with all face expression images in the FER2013 Dataset
+  python TranEmotionDetector.py
+- after Training , you will find the trained model structure and weights are stored in your project directory.
+emotion_model.json
+emotion_model.h5
+
+### run your emotion detection test file
+python TestEmotionDetector.py
+
+### Evaluate the cnn model
+- to evaluate run
+  EvaluateEmotionDetector.py
+- to get confusion matrix and metrices
+
+
