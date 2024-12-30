@@ -1,7 +1,7 @@
-#Emotion Detection with CNN
+**Emotion Detection with CNN**
 This project implements a Convolutional Neural Network (CNN) to detect facial emotions using the FER2013 dataset and a custom dataset. The model is trained to classify emotions like happiness, sadness, anger, and others.
 
-###Installation
+**Installation**
 Ensure the required dependencies are installed:
 -pip install numpy
 -pip install opencv-python
@@ -9,7 +9,7 @@ Ensure the required dependencies are installed:
 -pip install --upgrade tensorflow
 -pip install pillow
 
-###Dataset
+**Dataset**
 1. FER2013 Dataset
 Download the FER2013 dataset from this Kaggle link.
     https://www.kaggle.com/msambare/fer2013
@@ -18,7 +18,7 @@ Place the dataset in the data folder under your project directory.
 A custom dataset is stored in the data folder.
 Preprocessing has been performed, and the processed output is stored in the data_out folder.
 
-###Usage
+**Usage**
 1. Train the Emotion Detector
 To train the CNN model using the FER2013 dataset or the custom dataset:
    TrainEmotionDetector.py
@@ -35,7 +35,7 @@ The script provides:
 Confusion matrix
 Metrics such as accuracy, precision, recall, and F1-score
 
-###Project Structure
+**Project Structure**
 Emotion_Detection_With_CNN/
 │
 ├── TrainEmotionDetector.py       # Script to train the emotion detector
@@ -47,7 +47,7 @@ Emotion_Detection_With_CNN/
 ├── emotion_model.h5              # Saved model weights
 └── README.md                     # Project documentation
 
-###Notes
+**Notes**
 Ensure that the datasets are properly organized in the data folder before training or testing.
 GPU Support: To speed up training, ensure that TensorFlow is set up to use a GPU.
 Consider applying data augmentation to improve the model's performance.
